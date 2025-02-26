@@ -3,8 +3,8 @@
 Repo for testing out how new changes affects existing apps.
 
 Still in progress:
-o Angular
-o React
+* Angular
+* React
 
 ## Usage
 
