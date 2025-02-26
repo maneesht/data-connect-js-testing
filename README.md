@@ -8,6 +8,15 @@ o React
 
 ## Usage
 
+### Generate json config files
+```shell
+firebase experiments:enable appsinit
+cd vanilla-js-10
+firebase apps:init
+cd vanilla-js-11
+firebase apps:init
+```
+
 ```shell
 chmod +x ./test.sh 
 ./test.sh [-p ./path-to-binary]
