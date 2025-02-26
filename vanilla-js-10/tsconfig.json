@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "types": [
+            "mocha",
+        ],
+        "resolveJsonModule": true,
+        "strict": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "noUncheckedIndexedAccess": true
+    }
+}

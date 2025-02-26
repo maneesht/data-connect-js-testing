@@ -1,0 +1,24 @@
+I0225 16:55:19.244707   32733 load.go:37] Reloading schema and connectors...
+I0225 16:55:19.284611   32733 control.go:59] [/emulator/vanilla-js-10 e33e] UpdateResources(): done
+Schema: sources: schema/schema.gql [2072B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1786B] 
+I0225 16:55:19.300349   32733 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/Users/mtewani/source/data-connect-js-testing/vanilla-js-10/dataconnect-generated/js/default-connector"
+I0225 16:55:19.311753   32733 collector.go:107] schema extensions wrote into "/Users/mtewani/source/data-connect-js-testing/vanilla-js-10/dataconnect/.dataconnect/schema"
+Generated sources: main/mutation.gql [3205B] prelude.gql [65317B] main/implicit.gql [257B] main/input.gql [3823B] main/query.gql [1026B] 
+I0225 16:55:19.313001   32733 collector.go:107] connector "default" javascriptSdk wrote into "/Users/mtewani/source/data-connect-js-testing/vanilla-js-10/dataconnect-generated/js/default-connector"
+Generated sources: index.d.ts [1008B] esm/index.esm.js [463B] esm/package.json [17B] index.cjs.js [551B] package.json [634B] README.md [6469B] 
+I0225 16:55:19.314256   32733 installsdk.go:48] Package @firebasegen/default-connector is already installed. Skipping installation
+I0225 16:55:19.314370   32733 load.go:115] Finished reloading
+I0225 16:55:19.317190   32733 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9400
+I0225 16:55:19.318121   32733 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9400
+I0225 16:55:21.485332   32733 control.go:59] [/emulator/vanilla-js-10 5487] UpdateResources(): done
+Schema: sources: schema/schema.gql [2072B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1786B] 
+I0225 16:55:26.499091   32733 prepare.go:115] [operation "ListMovies" attempt 1] preparePlan succeeded
+I0225 16:55:26.499167   32733 prepare.go:106] [operation "ListMovies" attempt 1] DBStats beforePrepare: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterPrepare: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0225 16:55:26.501882   32733 executor.go:97] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0225 16:55:26.502191   32733 engine.go:148] [/emulator/vanilla-js-10 5487] ExecuteQuery ListMovies: succeeded. Connector: default
+I0225 16:56:00.552994   32733 executor.go:97] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0225 16:56:00.553048   32733 engine.go:148] [/emulator/vanilla-js-10 5487] ExecuteQuery ListMovies: succeeded. Connector: default
+I0225 16:56:09.143417   32733 executor.go:97] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0225 16:56:09.143457   32733 engine.go:148] [/emulator/vanilla-js-10 5487] ExecuteQuery ListMovies: succeeded. Connector: default

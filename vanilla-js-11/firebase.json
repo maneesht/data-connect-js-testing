@@ -1,0 +1,11 @@
+{
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData",
+      "port": 9400
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  }
+}
